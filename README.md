@@ -51,7 +51,7 @@ These modules simplify and standardize the creation of application infrastructur
 
 [https://github.com/byu-oit/terraform-aws-acs-info/](https://github.com/byu-oit/terraform-aws-acs-info/)
 
-TODO: Add description
+This module retrieves some basic ACS information and exposes them via outputs. This module does not create nor update any resources.
 
 ### S3 Backend Module
 
@@ -62,7 +62,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-backend-s3/](https://github.com/byu-oit/terraform-aws-backend-s3/)
 
-TODO: Add description
+Terraform module that creates an S3 bucket and DynamoDB table for backend state files.
 
 ### Bastion Module
 
@@ -73,7 +73,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-bastion/](https://github.com/byu-oit/terraform-aws-bastion/)
 
-TODO: Add description
+Creates a temporary bastion in an AWS Account.
 
 ### ECR Module
 
@@ -84,7 +84,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-ecr/](https://github.com/byu-oit/terraform-aws-ecr/)
 
-TODO: Add description
+Terraform module to create an ECR repository with lifecycle and repository policies.
 
 ### Fargate API Module
 
@@ -95,9 +95,9 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-fargate-api/](https://github.com/byu-oit/terraform-aws-fargate-api/)
 
-TODO: Add description
+Terraform module pattern to build a standard Fargate API. This module creates a Fargate service with an ALB, AutoScaling, CodeDeploy configuration and a DNS record in front.
 
-### CodePipeline Module
+### Fargate CodePipeline Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-fargate-codepipeline?sort=semver)](https://github.com/byu-oit/terraform-aws-fargate-codepipeline/releases/)
 [![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-fargate-codepipeline%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-fargate-codepipeline/goto)
@@ -106,7 +106,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-fargate-codepipeline/](https://github.com/byu-oit/terraform-aws-fargate-codepipeline/)
 
-TODO: Add description
+Creates a CodePipeline specifically for a Fargate project. The pipeline it creates has the following stages: Source, Build, Terraform, and Deploy.
 
 ### Lambda API Module
 
@@ -117,7 +117,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-lambda-api/](https://github.com/byu-oit/terraform-aws-lambda-api/)
 
-TODO: Add description
+Terraform module pattern to build a standard Lambda API.
 
 ### RDS Module
 
@@ -128,7 +128,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/terraform-aws-rds/](https://github.com/byu-oit/terraform-aws-rds/)
 
-TODO: Add description
+This terraform deploys an RDS instance.
 
 ## GitHub Actions (CI/CD)
 
@@ -143,7 +143,7 @@ These actions simplify and standardize common CI/CD tasks. You reference the act
 
 [https://github.com/byu-oit/github-action-codedeploy/](https://github.com/byu-oit/github-action-codedeploy/)
 
-TODO: Add description
+A GitHub Action for deploying an application with AWS CodeDeploy.
 
 ### Create ECR Action
 
@@ -154,7 +154,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/)
 
-TODO: Add description
+A GitHub Action for creating AWS ECR repositories.
 
 ### Disallow Concurrent Runs Action
 
@@ -165,7 +165,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/github-action-disallow-concurrent-runs/](https://github.com/byu-oit/github-action-disallow-concurrent-runs/)
 
-TODO: Add description
+A GitHub Action for disallowing concurrent workflow runs. Unfortunately, GitHub Actions does not currently have a way to queue workflows. This action works around this limitation by failing if the given workflow is already running for a particular branch.
 
 ### End Standard Change Action
 
@@ -176,7 +176,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/github-action-end-standard-change/](https://github.com/byu-oit/github-action-end-standard-change/)
 
-TODO: Add description
+A GitHub Action for ending standard change RFCs in BYU's ServiceNow system.
 
 ### Setup Maven Action
 
@@ -187,7 +187,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/github-action-setup-maven/](https://github.com/byu-oit/github-action-setup-maven/)
 
-TODO: Add description
+A GitHub Action for setting up a workflow to use BYU's maven environment. This action will create the maven settings.xml file along with the security-settings.xml file to allow your workflow to access the BYU maven repository. This action does not install maven, nor java (both are already included in workflows by default). If you need to install a different version of java you can use the setup-java action.
 
 ### Slack Action
 
@@ -198,7 +198,7 @@ TODO: Add description
 
 [https://github.com/byu-oit/github-action-slack/](https://github.com/byu-oit/github-action-slack/)
 
-TODO: Add description
+A GitHub Action for sending Slack notifications.
 
 ### Start Standard Change Action
 
@@ -209,4 +209,4 @@ TODO: Add description
 
 [https://github.com/byu-oit/github-action-start-standard-change/](https://github.com/byu-oit/github-action-start-standard-change/)
 
-TODO: Add description
+A GitHub Action for starting standard change RFCs in BYU's ServiceNow system.
