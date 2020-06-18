@@ -64,6 +64,17 @@ This module retrieves some basic ACS information and exposes them via outputs. T
 
 Terraform module that creates an S3 bucket and DynamoDB table for backend state files.
 
+### S3 Static Site Module
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-s3staticsite?sort=semver)](https://github.com/byu-oit/terraform-aws-s3staticsite/releases/)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-s3staticsite%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-s3staticsite/goto)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-s3staticsite.svg)](https://github.com/byu-oit/terraform-aws-s3staticsite/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-s3staticsite.svg)](https://github.com/byu-oit/terraform-aws-s3staticsite/pulls/)
+
+[https://github.com/byu-oit/terraform-aws-s3staticsite/](https://github.com/byu-oit/terraform-aws-s3staticsite/)
+
+This Terraform module deploys an S3-hosted static site with HTTPS enabled.
+
 ### Bastion Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-bastion?sort=semver)](https://github.com/byu-oit/terraform-aws-bastion/releases/)
