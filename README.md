@@ -108,17 +108,6 @@ Terraform module to create an ECR repository with lifecycle and repository polic
 
 Terraform module pattern to build a standard Fargate API. This module creates a Fargate service with an ALB, AutoScaling, CodeDeploy configuration and a DNS record in front.
 
-### Fargate CodePipeline Module
-
-[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-fargate-codepipeline?sort=semver)](https://github.com/byu-oit/terraform-aws-fargate-codepipeline/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-fargate-codepipeline%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-fargate-codepipeline/goto)
-[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-fargate-codepipeline.svg)](https://github.com/byu-oit/terraform-aws-fargate-codepipeline/issues/)
-[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-fargate-codepipeline.svg)](https://github.com/byu-oit/terraform-aws-fargate-codepipeline/pulls/)
-
-[https://github.com/byu-oit/terraform-aws-fargate-codepipeline/](https://github.com/byu-oit/terraform-aws-fargate-codepipeline/)
-
-Creates a CodePipeline specifically for a Fargate project. The pipeline it creates has the following stages: Source, Build, Terraform, and Deploy.
-
 ### Lambda API Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-lambda-api?sort=semver)](https://github.com/byu-oit/terraform-aws-lambda-api/releases/)
