@@ -8,7 +8,7 @@ These templates show best practice for setting up your project repos to take adv
 ### Fargate API Template
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/hw-fargate-api?sort=semver)](https://github.com/byu-oit/hw-fargate-api/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fhw-fargate-api%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/hw-fargate-api/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fhw-fargate-api%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/hw-fargate-api/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/hw-fargate-api.svg)](https://github.com/byu-oit/hw-fargate-api/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/hw-fargate-api.svg)](https://github.com/byu-oit/hw-fargate-api/pulls/)
 
@@ -19,7 +19,7 @@ Example of creating and deploying a containerized API to AWS. Terraform is used 
 ### Lambda API Template
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/hw-lambda-api?sort=semver)](https://github.com/byu-oit/hw-lambda-api/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fhw-lambda-api%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/hw-lambda-api/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fhw-lambda-api%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/hw-lambda-api/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/hw-lambda-api.svg)](https://github.com/byu-oit/hw-lambda-api/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/hw-lambda-api.svg)](https://github.com/byu-oit/hw-lambda-api/pulls/)
 
@@ -30,7 +30,7 @@ Example of creating and deploying a serverless API to AWS. Terraform is used to 
 ### S3 Static Site Template
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/hw-static-site?sort=semver)](https://github.com/byu-oit/hw-static-site/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fhw-static-site%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/hw-static-site/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fhw-static-site%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/hw-static-site/actions)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/hw-static-site.svg)](https://github.com/byu-oit/hw-static-site/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/hw-static-site.svg)](https://github.com/byu-oit/hw-static-site/pulls/)
 
@@ -45,7 +45,7 @@ These modules simplify and standardize the creation of application infrastructur
 ### ACS Info Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-acs-info?sort=semver)](https://github.com/byu-oit/terraform-aws-acs-info/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-acs-info%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-acs-info/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-acs-info%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-acs-info/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-acs-info.svg)](https://github.com/byu-oit/terraform-aws-acs-info/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-acs-info.svg)](https://github.com/byu-oit/terraform-aws-acs-info/pulls/)
 
@@ -56,7 +56,7 @@ This module retrieves some basic ACS information and exposes them via outputs. T
 ### S3 Backend Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-backend-s3?sort=semver)](https://github.com/byu-oit/terraform-aws-backend-s3/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-backend-s3%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-backend-s3/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-backend-s3%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-backend-s3/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-backend-s3.svg)](https://github.com/byu-oit/terraform-aws-backend-s3/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-backend-s3.svg)](https://github.com/byu-oit/terraform-aws-backend-s3/pulls/)
 
@@ -67,7 +67,7 @@ Terraform module that creates an S3 bucket and DynamoDB table for backend state 
 ### S3 Static Site Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-s3staticsite?sort=semver)](https://github.com/byu-oit/terraform-aws-s3staticsite/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-s3staticsite%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-s3staticsite/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-s3staticsite%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-s3staticsite/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-s3staticsite.svg)](https://github.com/byu-oit/terraform-aws-s3staticsite/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-s3staticsite.svg)](https://github.com/byu-oit/terraform-aws-s3staticsite/pulls/)
 
@@ -78,7 +78,7 @@ This Terraform module deploys an S3-hosted static site with HTTPS enabled.
 ### Bastion Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-bastion?sort=semver)](https://github.com/byu-oit/terraform-aws-bastion/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-bastion%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-bastion/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-bastion%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-bastion/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-bastion.svg)](https://github.com/byu-oit/terraform-aws-bastion/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-bastion.svg)](https://github.com/byu-oit/terraform-aws-bastion/pulls/)
 
@@ -89,7 +89,7 @@ Creates a temporary bastion in an AWS Account.
 ### ECR Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-ecr?sort=semver)](https://github.com/byu-oit/terraform-aws-ecr/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-ecr%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-ecr/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-ecr%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-ecr/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-ecr.svg)](https://github.com/byu-oit/terraform-aws-ecr/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-ecr.svg)](https://github.com/byu-oit/terraform-aws-ecr/pulls/)
 
@@ -100,7 +100,7 @@ Terraform module to create an ECR repository with lifecycle and repository polic
 ### Fargate API Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-fargate-api?sort=semver)](https://github.com/byu-oit/terraform-aws-fargate-api/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-fargate-api%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-fargate-api/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-fargate-api%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-fargate-api/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-fargate-api.svg)](https://github.com/byu-oit/terraform-aws-fargate-api/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-fargate-api.svg)](https://github.com/byu-oit/terraform-aws-fargate-api/pulls/)
 
@@ -111,7 +111,7 @@ Terraform module pattern to build a standard Fargate API. This module creates a 
 ### Lambda API Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-lambda-api?sort=semver)](https://github.com/byu-oit/terraform-aws-lambda-api/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-lambda-api%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-lambda-api/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-lambda-api%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-lambda-api/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-lambda-api.svg)](https://github.com/byu-oit/terraform-aws-lambda-api/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-lambda-api.svg)](https://github.com/byu-oit/terraform-aws-lambda-api/pulls/)
 
@@ -122,7 +122,7 @@ Terraform module pattern to build a standard Lambda API.
 ### RDS Module
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-rds?sort=semver)](https://github.com/byu-oit/terraform-aws-rds/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-rds%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/terraform-aws-rds/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fterraform-aws-rds%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/terraform-aws-rds/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-rds.svg)](https://github.com/byu-oit/terraform-aws-rds/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-rds.svg)](https://github.com/byu-oit/terraform-aws-rds/pulls/)
 
@@ -137,7 +137,7 @@ These actions simplify and standardize common CI/CD tasks. You reference the act
 ### CodeDeploy Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-codedeploy?sort=semver)](https://github.com/byu-oit/github-action-codedeploy/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-codedeploy%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-codedeploy/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-codedeploy%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-codedeploy/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-codedeploy.svg)](https://github.com/byu-oit/github-action-codedeploy/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-codedeploy.svg)](https://github.com/byu-oit/github-action-codedeploy/pulls/)
 
@@ -148,7 +148,7 @@ A GitHub Action for deploying an application with AWS CodeDeploy.
 ### Create ECR Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-create-ecr-repo-if-missing?sort=semver)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-create-ecr-repo-if-missing%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-create-ecr-repo-if-missing/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-create-ecr-repo-if-missing%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-create-ecr-repo-if-missing.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-create-ecr-repo-if-missing.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/pulls/)
 
@@ -159,7 +159,7 @@ A GitHub Action for creating AWS ECR repositories.
 ### Disallow Concurrent Runs Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-disallow-concurrent-runs?sort=semver)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-disallow-concurrent-runs%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-disallow-concurrent-runs/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-disallow-concurrent-runs%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-disallow-concurrent-runs.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-disallow-concurrent-runs.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/pulls/)
 
@@ -170,7 +170,7 @@ A GitHub Action for disallowing concurrent workflow runs. Unfortunately, GitHub 
 ### End Standard Change Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-end-standard-change?sort=semver)](https://github.com/byu-oit/github-action-end-standard-change/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-end-standard-change%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-end-standard-change/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-end-standard-change%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-end-standard-change/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-end-standard-change.svg)](https://github.com/byu-oit/github-action-end-standard-change/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-end-standard-change.svg)](https://github.com/byu-oit/github-action-end-standard-change/pulls/)
 
@@ -181,7 +181,7 @@ A GitHub Action for ending standard change RFCs in BYU's ServiceNow system.
 ### Setup Maven Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-setup-maven?sort=semver)](https://github.com/byu-oit/github-action-setup-maven/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-setup-maven%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-setup-maven/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-setup-maven%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-setup-maven/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-setup-maven.svg)](https://github.com/byu-oit/github-action-setup-maven/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-setup-maven.svg)](https://github.com/byu-oit/github-action-setup-maven/pulls/)
 
@@ -192,7 +192,7 @@ A GitHub Action for setting up a workflow to use BYU's maven environment. This a
 ### Slack Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-slack?sort=semver)](https://github.com/byu-oit/github-action-slack/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-slack%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-slack/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-slack%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-slack/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-slack.svg)](https://github.com/byu-oit/github-action-slack/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-slack.svg)](https://github.com/byu-oit/github-action-slack/pulls/)
 
@@ -203,7 +203,7 @@ A GitHub Action for sending Slack notifications.
 ### Start Standard Change Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-start-standard-change?sort=semver)](https://github.com/byu-oit/github-action-start-standard-change/releases/)
-[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-start-standard-change%2Fbadge&label=ci/cd&logo=none)](https://actions-badge.atrox.dev/byu-oit/github-action-start-standard-change/goto)
+[![Latest GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbyu-oit%2Fgithub-action-start-standard-change%2Fbadge&label=ci/cd&logo=none)](https://github.com/byu-oit/github-action-start-standard-change/actions/)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-start-standard-change.svg)](https://github.com/byu-oit/github-action-start-standard-change/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-start-standard-change.svg)](https://github.com/byu-oit/github-action-start-standard-change/pulls/)
 
