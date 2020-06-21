@@ -9,6 +9,7 @@ These templates show best practice for setting up your project repos to take adv
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/hw-fargate-api?sort=semver)](https://github.com/byu-oit/hw-fargate-api/releases/)
 [![CI](https://github.com/byu-oit/hw-fargate-api/workflows/CI/badge.svg)](https://github.com/byu-oit/hw-fargate-api/actions?query=workflow%3ACI)
+[![CI/CD Pipeline](https://github.com/byu-oit/hw-fargate-api/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/byu-oit/hw-fargate-api/actions?query=workflow%3A%22CI%2FCD+Pipeline%22)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/hw-fargate-api.svg)](https://github.com/byu-oit/hw-fargate-api/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/hw-fargate-api.svg)](https://github.com/byu-oit/hw-fargate-api/pulls/)
 
@@ -20,6 +21,7 @@ Example of creating and deploying a containerized API to AWS. Terraform is used 
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/hw-lambda-api?sort=semver)](https://github.com/byu-oit/hw-lambda-api/releases/)
 [![CI](https://github.com/byu-oit/hw-lambda-api/workflows/CI/badge.svg)](https://github.com/byu-oit/hw-lambda-api/actions?query=workflow%3ACI)
+[![CI/CD Pipeline](https://github.com/byu-oit/hw-lambda-api/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/byu-oit/hw-lambda-api/actions?query=workflow%3A%22CI%2FCD+Pipeline%22)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/hw-lambda-api.svg)](https://github.com/byu-oit/hw-lambda-api/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/hw-lambda-api.svg)](https://github.com/byu-oit/hw-lambda-api/pulls/)
 
@@ -31,6 +33,7 @@ Example of creating and deploying a serverless API to AWS. Terraform is used to 
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/hw-static-site?sort=semver)](https://github.com/byu-oit/hw-static-site/releases/)
 [![CI](https://github.com/byu-oit/hw-static-site/workflows/CI/badge.svg)](https://github.com/byu-oit/hw-static-site/actions?query=workflow%3ACI)
+[![CI/CD Pipeline](https://github.com/byu-oit/hw-static-site/workflows/CI/CD%20Pipeline/badge.svg)](https://github.com/byu-oit/hw-static-site/actions?query=workflow%3A%22CI%2FCD+Pipeline%22)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/hw-static-site.svg)](https://github.com/byu-oit/hw-static-site/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/hw-static-site.svg)](https://github.com/byu-oit/hw-static-site/pulls/)
 
