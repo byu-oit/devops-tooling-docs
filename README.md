@@ -223,7 +223,6 @@ A GitHub Action for starting standard change RFCs in BYU's ServiceNow system.
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-tf-plan-comment.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-tf-plan-comment.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/pulls/)
 
-
 [https://github.com/byu-oit/devops-tooling-docs](https://github.com/byu-oit/devops-tooling-docs)
 
 A GitHub Action for making a comment on PRs with a summary of a terraform plan to be executed if merged.
