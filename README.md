@@ -214,3 +214,16 @@ A GitHub Action for sending Slack notifications.
 [https://github.com/byu-oit/github-action-start-standard-change/](https://github.com/byu-oit/github-action-start-standard-change/)
 
 A GitHub Action for starting standard change RFCs in BYU's ServiceNow system.
+
+### Terraform Plan Comment Action
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-tf-plan-comment?sort=semver)](https://github.com/byu-oit/github-action-tf-plan-comment/releases/)
+[![build](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/build/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3Abuild)
+[![test](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/test/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3Atest)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-tf-plan-comment.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-tf-plan-comment.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/pulls/)
+
+
+[https://github.com/byu-oit/devops-tooling-docs](https://github.com/byu-oit/devops-tooling-docs)
+
+A GitHub Action for making a comment on PRs with a summary of a terraform plan to be executed if merged.
