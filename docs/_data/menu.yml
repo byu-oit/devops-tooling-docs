@@ -1,5 +1,11 @@
 - file: index.md
   name: Home
-#- file: kotlin-api-calling/index.md
-#  name: Kotlin API Calling
-#  dir: kotlin-api-calling
+- file: processes/index.md
+  name: Processes
+  dir: processes
+- file: terraform/index.md
+  name: Terraform
+  dir: terraform
+- file: gh-actions/index.md
+  name: GitHub Actions
+  dir: gh-actions
