@@ -25,5 +25,3 @@ pages on the site.
 1. `cd` into the `docs` folder.
 2. Run `./serve.sh`.
 3. Follow the instructions in the terminal to access the site.
-
-
