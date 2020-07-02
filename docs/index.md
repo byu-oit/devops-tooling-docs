@@ -14,6 +14,12 @@ Welcome to the home of DevOps documentation at BYU. Currently, this site is spli
 operations in the BYU ecosystem.
 - _Terraform_: The recommended infrastructure-as-code (IAC) tool in the BYU ecosystem.
 
+## Assign Secret to Repository
+
+For those using GitHub Actions: 
+[this order form](https://it.byu.edu/it?id=sc_cat_item&sys_id=d20809201b2d141069fbbaecdc4bcb84) 
+can be used to give specific GitHub repos access to specific AWS accounts.
+
 ## "Hello World" Project Templates
 
 If you are looking for examples of DevOps using IAC and CI/CD tools, start here. These templates show best practices 
