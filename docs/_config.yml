@@ -1,0 +1,46 @@
+baseurl: ''
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "process"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "gh-actions"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "terraform"
+    values:
+      layout: "default"
+theme: minima
+title: DevOps at BYU
+
+collections_dir: content
+
+collections:
+  processes:
+    output: true
+    order: 1
+  gh-actions:
+    output: true
+    order: 2
+  terraform:
+    output: true
+    order: 3
+
+plugins:
+  - jekyll-relative-links
+
+markdown: kramdown
+
+relative_links:
+  enabled:     true
+  collections: true

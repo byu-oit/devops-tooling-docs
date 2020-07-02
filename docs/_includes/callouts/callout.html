@@ -1,0 +1,15 @@
+<div class="callout callout-{{include.type}}">
+    <div class="callout-header">
+        <div class="callout-header-icon">
+            <i class="{{include.icon_class}}"></i>
+        </div>
+        <div class="callout-header-text">
+            {{include.header}}
+        </div>
+    </div>
+    <div class="callout-content">
+        {{include.content | markdownify}}
+    </div>
+</div>
+
+

@@ -1,0 +1,143 @@
+.callout {
+  border: 1px solid #e6e6e6;
+  margin: 2em 8px;
+  border-radius: 5px;
+  border-left: 5px solid var(--callout-color);
+}
+
+.callout-header {
+  padding: 8px 16px;
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.callout-header-icon {
+  color: var(--callout-color);
+  margin-right: 0.5em;
+  font-size: 35px;
+}
+
+.callout-content {
+  padding: 8px 16px;
+}
+
+.callout-warning {
+  --callout-color: #D57301;
+}
+
+.callout-protip {
+  --callout-color: #66b200;
+}
+
+.callout-workaround {
+  --callout-color: #FCC015;
+}
+
+.callout-code {
+  --callout-color: #5F7C9B;
+}
+
+.callout-demo {
+  --callout-color: #5F7C9B;
+}
+
+.callout-in-progress {
+  --callout-color: #D57301;
+}
+
+.callout-might-change {
+  --callout-color: #FCC015;
+}
+
+.callout-kotlin {
+  --callout-color: #806EE3;
+}
+
+.icon-kotlin::before {
+  display: inline-block;
+  content: url("./kotlin-logo.svg");
+  width: 35px;
+  height: 35px;
+}
+
+@mixin callout($color, $logo, $title) {
+  border: 1px solid #e6e6e6;
+  margin: 2em 0;
+  border-radius: 5px;
+  border-left: 5px solid $color;
+  color: black;
+  font-style: normal;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  font-size: medium;
+  letter-spacing: initial;
+
+  &::before {
+    content: $title;
+    font-size: 1.5em;
+    display: block;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 20px;
+  }
+
+  &::after {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: $logo;
+    color: $color;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 35px;
+  }
+
+  > * {
+    grid-column: span 2;
+    padding: 8px 16px 8px 0;
+  }
+}
+
+blockquote.callout-warning {
+  @include callout(#D57301, '\f567', 'Here there be dragons!');
+}
+
+blockquote.callout-protip {
+  --callout-color: #66b200;
+  @include callout(#66b200, '\f582', 'Pro Tip');
+}
+
+blockquote.callout-workaround {
+  @include callout(#FCC015, '\f5c8', 'Workaround Required');
+}
+
+blockquote.callout-code {
+  @include callout(#5f7c9B, '\f5fc', 'Source Code Available');
+}
+
+blockquote.callout-demo {
+  @include callout(#5f7c9B, '\f4da', 'Do what I say, not what I do');
+}
+
+blockquote.callout-in-progress {
+  @include callout(#D57301, '\f57f', 'Work in Progress');
+}
+
+blockquote.callout-might-change {
+  @include callout(#FCC015, '\f568', 'Work in Progress');
+}
+
+blockquote.callout-kotlin {
+  @include callout(#806EE3, ' ', 'Kotlin-ism');
+  &::after {
+    background: url("./kotlin-logo.svg") no-repeat center;
+    background-size: 30px 30px;
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+  }
+}

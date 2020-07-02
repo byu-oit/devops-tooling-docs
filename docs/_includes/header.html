@@ -1,0 +1,43 @@
+{%- assign groups = site.collections | where_exp:"item","item.label != 'posts'" | where:"output","true" | sort:"order" -%}
+{%- if page.url == '/' or page.url == '/index.html' -%}
+{%- assign isHome = true -%}
+{%- else -%}
+{%- assign isHome = false -%}
+{%- endif -%}
+<byu-header role="banner" constrain-top-bar>
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign ordered_paths = page_paths | sort:"order" -%}
+    <header slot="site-title">{{ site.title | escape }}</header>
+    <byu-menu slot="nav">
+        <a class="{% if isHome == true %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+        {%- for group in groups -%}
+        {%- assign grIndex = group.docs | where_exp:"item","item.path contains '/index.md'" | first -%}
+        <a href="{{grIndex.url | relative_url }}" class="{% if page.collection == group.label %}active{% endif %}">{{grIndex.title}}</a>
+        {%- endfor -%}
+    </byu-menu>
+    {%- comment %} This is a nasty hack around the fact that Github's current Jekyll version doesn't include the collection path properly {% endcomment -%}
+    {%- assign edit_path = page.path -%}
+    {%- assign collections_dir_prefix = site.collections_dir | append:'/' -%}
+    {%- if page.collection -%}
+    {%- unless page.path contains collections_dir_prefix -%}
+    <!-- collections_dir prefix hack applied! ({{collections_dir_prefix}}) -->
+    {%- assign edit_path = page.path | prepend:collections_dir_prefix -%}
+    {%- endunless -%}
+    {%- endif -%}
+    {%- comment %} endnastyhack {% endcomment -%}
+    <a class="header-edit-button" slot="actions" href="https://github.com/byu-oit/devops-tooling-docs/edit/master/docs/{{edit_path}}">
+        <i class="fab fa-github"></i>
+        Edit Page
+    </a>
+</byu-header>
+
+<!-- -------- DEBUG: Group Contents ----------- -->
+{%- for group in groups -%}
+<!-- - {{group.label}}-->
+{%- assign groupPages = group.docs | sort:"order" -%}
+{%- for p in groupPages -%}
+<!--   - {{p.title}} {{p.url}} {{p.path}} -->
+{%- endfor -%}
+{%- endfor -%}
+<!-- -------- END DEBUG: Group Contents ----------- -->
