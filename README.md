@@ -140,6 +140,7 @@ These actions simplify and standardize common CI/CD tasks. You reference the act
 ### CodeDeploy Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-codedeploy?sort=semver)](https://github.com/byu-oit/github-action-codedeploy/releases/)
+[![CI](https://github.com/byu-oit/github-action-codedeploy/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-codedeploy/actions?query=workflow%3ATest)
 [![Test](https://github.com/byu-oit/github-action-codedeploy/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-codedeploy/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-codedeploy.svg)](https://github.com/byu-oit/github-action-codedeploy/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-codedeploy.svg)](https://github.com/byu-oit/github-action-codedeploy/pulls/)
@@ -151,6 +152,7 @@ A GitHub Action for deploying an application with AWS CodeDeploy.
 ### Create ECR Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-create-ecr-repo-if-missing?sort=semver)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/releases/)
+[![CI](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/actions?query=workflow%3ACI)
 [![Test](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-create-ecr-repo-if-missing.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-create-ecr-repo-if-missing.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/pulls/)
@@ -162,6 +164,7 @@ A GitHub Action for creating AWS ECR repositories.
 ### Disallow Concurrent Runs Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-disallow-concurrent-runs?sort=semver)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/releases/)
+[![CI](https://github.com/byu-oit/github-action-disallow-concurrent-runs/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/actions?query=workflow%3ACI)
 [![Test](https://github.com/byu-oit/github-action-disallow-concurrent-runs/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-disallow-concurrent-runs.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-disallow-concurrent-runs.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/pulls/)
@@ -173,6 +176,7 @@ A GitHub Action for disallowing concurrent workflow runs. Unfortunately, GitHub 
 ### End Standard Change Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-end-standard-change?sort=semver)](https://github.com/byu-oit/github-action-end-standard-change/releases/)
+[![CI](https://github.com/byu-oit/github-action-end-standard-change/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-end-standard-change/actions?query=workflow%3ACI)
 [![Test](https://github.com/byu-oit/github-action-end-standard-change/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-end-standard-change/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-end-standard-change.svg)](https://github.com/byu-oit/github-action-end-standard-change/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-end-standard-change.svg)](https://github.com/byu-oit/github-action-end-standard-change/pulls/)
@@ -184,7 +188,8 @@ A GitHub Action for ending standard change RFCs in BYU's ServiceNow system.
 ### Setup Maven Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-setup-maven?sort=semver)](https://github.com/byu-oit/github-action-setup-maven/releases/)
-[![build-test](https://github.com/byu-oit/github-action-setup-maven/workflows/build-test/badge.svg)](https://github.com/byu-oit/github-action-setup-maven/actions?query=workflow%3Abuild-test)
+[![CI](https://github.com/byu-oit/github-action-setup-maven/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-setup-maven/actions?query=workflow%3ACI)
+[![Test](https://github.com/byu-oit/github-action-setup-maven/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-setup-maven/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-setup-maven.svg)](https://github.com/byu-oit/github-action-setup-maven/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-setup-maven.svg)](https://github.com/byu-oit/github-action-setup-maven/pulls/)
 
@@ -195,6 +200,7 @@ A GitHub Action for setting up a workflow to use BYU's maven environment. This a
 ### Slack Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-slack?sort=semver)](https://github.com/byu-oit/github-action-slack/releases/)
+[![CI](https://github.com/byu-oit/github-action-slack/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-slack/actions?query=workflow%3ACI)
 [![Test](https://github.com/byu-oit/github-action-slack/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-slack/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-slack.svg)](https://github.com/byu-oit/github-action-slack/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-slack.svg)](https://github.com/byu-oit/github-action-slack/pulls/)
@@ -206,6 +212,7 @@ A GitHub Action for sending Slack notifications.
 ### Start Standard Change Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-start-standard-change?sort=semver)](https://github.com/byu-oit/github-action-start-standard-change/releases/)
+[![CI](https://github.com/byu-oit/github-action-start-standard-change/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-start-standard-change/actions?query=workflow%3ACI)
 [![Test as a step](https://github.com/byu-oit/github-action-start-standard-change/workflows/Test%20as%20a%20step/badge.svg)](https://github.com/byu-oit/github-action-start-standard-change/actions?query=workflow%3ATest%20as%20a%20step)
 [![Test as a job](https://github.com/byu-oit/github-action-start-standard-change/workflows/Test%20as%20a%20job/badge.svg)](https://github.com/byu-oit/github-action-start-standard-change/actions?query=workflow%3ATest%20as%20a%20job)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-start-standard-change.svg)](https://github.com/byu-oit/github-action-start-standard-change/issues/)
@@ -218,8 +225,8 @@ A GitHub Action for starting standard change RFCs in BYU's ServiceNow system.
 ### Terraform Plan Comment Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-tf-plan-comment?sort=semver)](https://github.com/byu-oit/github-action-tf-plan-comment/releases/)
-[![build](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/build/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3Abuild)
-[![test](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/test/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3Atest)
+[![CI](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3ACI)
+[![Test](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3ATest)
 [![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-tf-plan-comment.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/issues/)
 [![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-tf-plan-comment.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/pulls/)
 
