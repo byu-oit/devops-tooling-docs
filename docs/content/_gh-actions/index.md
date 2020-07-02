@@ -8,12 +8,10 @@ title: GitHub Actions
 continuous deployment (CI/CD) operations and workflows. Using CI/CD workflows helps automate tasks during the 
 development process such as building code, running tests, and deploying code changes.
 
-## GitHub Actions (CI/CD)
-
 These actions simplify and standardize common CI/CD tasks. You reference the actions from `.yml` files inside your 
 project repo via versioned name.
 
-### CodeDeploy Action
+## CodeDeploy Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-codedeploy?sort=semver)](https://github.com/byu-oit/github-action-codedeploy/releases/)
 [![Test](https://github.com/byu-oit/github-action-codedeploy/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-codedeploy/actions?query=workflow%3ATest)
@@ -24,7 +22,7 @@ project repo via versioned name.
 
 A GitHub Action for deploying an application with AWS CodeDeploy.
 
-### Create ECR Action
+## Create ECR Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-create-ecr-repo-if-missing?sort=semver)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/releases/)
 [![Test](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-create-ecr-repo-if-missing/actions?query=workflow%3ATest)
@@ -35,7 +33,7 @@ A GitHub Action for deploying an application with AWS CodeDeploy.
 
 A GitHub Action for creating AWS ECR repositories.
 
-### Disallow Concurrent Runs Action
+## Disallow Concurrent Runs Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-disallow-concurrent-runs?sort=semver)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/releases/)
 [![Test](https://github.com/byu-oit/github-action-disallow-concurrent-runs/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-disallow-concurrent-runs/actions?query=workflow%3ATest)
@@ -48,7 +46,7 @@ A GitHub Action for disallowing concurrent workflow runs. Unfortunately, GitHub 
 to queue workflows. This action works around this limitation by failing if the given workflow is already running for a 
 particular branch.
 
-### End Standard Change Action
+## End Standard Change Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-end-standard-change?sort=semver)](https://github.com/byu-oit/github-action-end-standard-change/releases/)
 [![Test](https://github.com/byu-oit/github-action-end-standard-change/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-end-standard-change/actions?query=workflow%3ATest)
@@ -59,7 +57,7 @@ particular branch.
 
 A GitHub Action for ending standard change RFCs in BYU's ServiceNow system.
 
-### Setup Maven Action
+## Setup Maven Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-setup-maven?sort=semver)](https://github.com/byu-oit/github-action-setup-maven/releases/)
 [![build-test](https://github.com/byu-oit/github-action-setup-maven/workflows/build-test/badge.svg)](https://github.com/byu-oit/github-action-setup-maven/actions?query=workflow%3Abuild-test)
@@ -73,7 +71,7 @@ settings.xml file along with the security-settings.xml file to allow your workfl
 This action does not install maven, nor java (both are already included in workflows by default). If you need to 
 install a different version of java you can use the setup-java action.
 
-### Slack Action
+## Slack Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-slack?sort=semver)](https://github.com/byu-oit/github-action-slack/releases/)
 [![Test](https://github.com/byu-oit/github-action-slack/workflows/Test/badge.svg)](https://github.com/byu-oit/github-action-slack/actions?query=workflow%3ATest)
@@ -84,7 +82,7 @@ install a different version of java you can use the setup-java action.
 
 A GitHub Action for sending Slack notifications.
 
-### Start Standard Change Action
+## Start Standard Change Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-start-standard-change?sort=semver)](https://github.com/byu-oit/github-action-start-standard-change/releases/)
 [![Test as a step](https://github.com/byu-oit/github-action-start-standard-change/workflows/Test%20as%20a%20step/badge.svg)](https://github.com/byu-oit/github-action-start-standard-change/actions?query=workflow%3ATest%20as%20a%20step)
@@ -96,7 +94,7 @@ A GitHub Action for sending Slack notifications.
 
 A GitHub Action for starting standard change RFCs in BYU's ServiceNow system.
 
-### Terraform Plan Comment Action
+## Terraform Plan Comment Action
 
 [![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-tf-plan-comment?sort=semver)](https://github.com/byu-oit/github-action-tf-plan-comment/releases/)
 [![build](https://github.com/byu-oit/github-action-tf-plan-comment/workflows/build/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-comment/actions?query=workflow%3Abuild)
