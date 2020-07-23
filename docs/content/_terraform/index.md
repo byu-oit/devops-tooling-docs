@@ -102,3 +102,15 @@ This terraform deploys an RDS instance.
 [https://github.com/byu-oit/terraform-aws-s3staticsite/](https://github.com/byu-oit/terraform-aws-s3staticsite/)
 
 This Terraform module deploys an S3-hosted static site with HTTPS enabled.
+
+### Postman Test Lambda Module
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-postman-test-lambda?sort=semver)](https://github.com/byu-oit/terraform-aws-postman-test-lambda/releases/)
+[![CI](https://github.com/byu-oit/terraform-aws-postman-test-lambda/workflows/CI/badge.svg)](https://github.com/byu-oit/terraform-aws-postman-test-lambda/actions?query=workflow%3ACI)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-postman-test-lambda.svg)](https://github.com/byu-oit/terraform-aws-postman-test-lambda/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-postman-test-lambda.svg)](https://github.com/byu-oit/terraform-aws-postman-test-lambda/pulls/)
+
+[https://github.com/byu-oit/terraform-aws-postman-test-lambda/](https://github.com/byu-oit/terraform-aws-postman-test-lambda/)
+
+This Terraform module creates a lambda function that runs postman tests against a collection with an environment.
+
