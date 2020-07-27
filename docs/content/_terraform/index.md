@@ -114,3 +114,13 @@ This Terraform module deploys an S3-hosted static site with HTTPS enabled.
 
 This Terraform module creates a lambda function that runs postman tests against a collection with an environment.
 
+### Scheduled Fargate Module
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-scheduled-fargate?sort=semver)](https://github.com/byu-oit/terraform-aws-scheduled-fargate/releases/)
+[![CI](https://github.com/byu-oit/terraform-aws-scheduled-fargate/workflows/CI/badge.svg)](https://github.com/byu-oit/terraform-aws-scheduled-fargate/actions?query=workflow%3ACI)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-scheduled-fargate.svg)](https://github.com/byu-oit/terraform-aws-scheduled-fargate/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-scheduled-fargate.svg)](https://github.com/byu-oit/terraform-aws-scheduled-fargate/pulls/)
+
+[https://github.com/byu-oit/terraform-aws-scheduled-fargate/](https://github.com/byu-oit/terraform-aws-scheduled-fargate/)
+
+Terraform module to creates a scheduled Fargate Task that happens based off of a cron or rate schedule.
