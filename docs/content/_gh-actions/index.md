@@ -6,7 +6,8 @@ title: GitHub Actions
 
 [GitHub Actions](https://github.com/features/actions) is the recommended tool for automating continuous integration and 
 continuous deployment (CI/CD) operations and workflows. Using CI/CD workflows helps automate tasks during the 
-development process such as building code, running tests, and deploying code changes.
+development process such as building code, running tests, and deploying code changes. You can think of GitHub Actions 
+as OIT's successor to [handel-codepipeline](https://github.com/byu-oit/handel-codepipeline).
 
 These actions simplify and standardize common CI/CD tasks. You reference the actions from `.yml` files inside your 
 project repo via versioned name.

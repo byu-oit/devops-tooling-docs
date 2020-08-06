@@ -66,3 +66,26 @@ tests.
 
 Example of creating and deploying a static website to AWS. Terraform is used to create infrastructure. S3 is used to 
 host the website. Route 53 is used for DNS resolution. CloudFront and ACM are used for SSL.
+
+## Get Involved
+
+### Connect with the DevOps Tooling
+
+The DevOps Tooling Working Group is a group of individuals from different teams working together on the best practices 
+of using DevOps at BYU. If you would like a new feature or tool from them, contact the Development Platforms product
+manager.
+
+- Current Product Manager: Gordon Whitehead
+- GitHub team: [DevOps Tooling](https://github.com/orgs/byu-oit/teams/devops-tooling)
+- Slack channel for creating tooling: [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T)
+- Slack channel for support: [#devops-tooling-comms](https://byu-oit.slack.com/archives/C015UJ4QBFU)
+- Participate in working group meetings
+  - Thursdays from 2:30 to 4 (for the year 2020) - Ask [on Slack]((https://byu-oit.slack.com/archives/CQ2BE663T)) for 
+  calendar invite or Zoom link
+  - Meeting notes: [Box](https://byu.app.box.com/notes/565434185067?s=i0zy8v9aymtf0rhtd2ywpe1puldi8b2n)
+- Task Board: [ServiceNow](https://it.byu.edu/$vtb.do?sysparm_board=adea9b97dbadcc101f061cb51b961940)
+
+### How to Contribute
+
+Reach out on Slack at [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T), or create GitHub issues and pull 
+requests on existing repositories.
