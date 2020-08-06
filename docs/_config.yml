@@ -19,7 +19,7 @@ defaults:
       path: ""
       type: "terraform"
     values:
-      layout: "default"
+      layout: "tutorial"
 theme: minima
 title: DevOps at BYU
 

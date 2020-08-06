@@ -1,0 +1,13 @@
+---
+layout: collection
+---
+<h1>{{page.title}}</h1>
+{%- if page.tutorial_source -%}
+{% capture tut_src_link %}
+> The completed source for this chapter is [available here]({{page.tutorial_source}}).
+{: .callout-code }
+{% endcapture %}
+{{ tut_src_link | markdownify }}
+{%- endif -%}
+
+{{content}}
