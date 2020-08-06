@@ -13,8 +13,8 @@ predictably create, change, and improve infrastructure. It is an open source too
 configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
 
 You can think of [Terraform](https://github.com/hashicorp/terraform) as OIT's successor to 
-[handel](https://github.com/byu-oit/handel) and [handel-codepipeline](https://github.com/byu-oit/handel-codepipeline). 
-It's more powerful and more flexible, but it requires some additional knowledge about the way AWS resources operate.
+[handel](https://github.com/byu-oit/handel). It's more powerful and more flexible, but it requires some additional 
+knowledge about the way AWS resources operate.
 
 # Getting Started
 
@@ -25,7 +25,8 @@ It's more powerful and more flexible, but it requires some additional knowledge 
 
 ## Try out Terraform
 
-Follow the steps at [`byu-oit/hw-lambda-api`](https://github.com/byu-oit/hw-lambda-api) to create and deploy a 
+Follow the steps at [`byu-oit/hw-lambda-api`](https://github.com/byu-oit/hw-lambda-api) or 
+[`byu-oit/hw-fargate-api`](https://github.com/byu-oit/hw-fargate-api) to create and deploy a 
 simple application.
 
 ## See Examples

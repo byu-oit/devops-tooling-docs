@@ -72,10 +72,13 @@ host the website. Route 53 is used for DNS resolution. CloudFront and ACM are us
 ### Connect with the DevOps Tooling
 
 The DevOps Tooling Working Group is a group of individuals from different teams working together on the best practices 
-of using DevOps at BYU.
+of using DevOps at BYU. If you would like a new feature or tool from them, contact the Development Platforms product
+manager.
 
+- Current Product Manager: Gordon Whitehead
 - GitHub team: [DevOps Tooling](https://github.com/orgs/byu-oit/teams/devops-tooling)
-- Slack channel: [#devops-tools](https://byu-oit.slack.com/archives/CQ2BE663T)
+- Slack channel for creating tooling: [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T)
+- Slack channel for support: [#devops-tooling-comms](https://byu-oit.slack.com/archives/C015UJ4QBFU)
 - Participate in working group meetings
   - Thursdays from 2:30 to 4 (for the year 2020) - Ask [on Slack]((https://byu-oit.slack.com/archives/CQ2BE663T)) for 
   calendar invite or Zoom link

@@ -32,7 +32,7 @@ from GitHub from within a CICD pipeline (aka CodeBuild) without having to do ext
 is if you need to use a module residing in a private GitHub repo, you will then have to use a GitHub access token tied
 to a user who has access to the private repo. 
 
-## Example Modules
+## BYU's Modules
 
 ### ACS Info Module
 
