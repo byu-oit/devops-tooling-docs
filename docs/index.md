@@ -80,7 +80,7 @@ manager.
 - Slack channel for creating tooling: [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T)
 - Slack channel for support: [#devops-tooling-comms](https://byu-oit.slack.com/archives/C015UJ4QBFU)
 - Participate in working group meetings
-  - Thursdays from 2:30 to 4 (for the year 2020) - Ask [on Slack]((https://byu-oit.slack.com/archives/CQ2BE663T)) for 
+  - Thursdays from 2:30 to 4 (for the year 2020) - Ask [on Slack](https://byu-oit.slack.com/archives/CQ2BE663T) for 
   calendar invite or Zoom link
   - Meeting notes: [Box](https://byu.app.box.com/notes/565434185067?s=i0zy8v9aymtf0rhtd2ywpe1puldi8b2n)
 - Task Board: [ServiceNow](https://it.byu.edu/$vtb.do?sysparm_board=adea9b97dbadcc101f061cb51b961940)
