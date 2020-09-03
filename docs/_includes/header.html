@@ -15,6 +15,7 @@
         {%- assign grIndex = group.docs | where_exp:"item","item.path contains '/index.md'" | first -%}
         <a href="{{grIndex.url | relative_url }}" class="{% if page.collection == group.label %}active{% endif %}">{{grIndex.title}}</a>
         {%- endfor -%}
+        <a href="https://elevator.byu.edu">The Elevator</a>
     </byu-menu>
     {%- comment %} This is a nasty hack around the fact that Github's current Jekyll version doesn't include the collection path properly {% endcomment -%}
     {%- assign edit_path = page.path -%}
