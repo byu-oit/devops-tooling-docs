@@ -1,7 +1,7 @@
-# DevOps Documentaiton
+# DevOps Documentation - [devops.byu.edu](https://devops.byu.edu)
 
-This repo hosts the website documenting DevOps at BYU (both DevOps processes and tools). The website is a 
-[Jekyll](https://jekyllrb.com/) website hosted on GitHub Pages. All documentation and files for the site is in the 
+This repo is the source for the website documenting DevOps at BYU (both DevOps processes and tools). The website is a 
+[Jekyll](https://jekyllrb.com/) website hosted on GitHub Pages. All documentation and files for the site are in the 
 `docs` folder.
 
 ## Docs Folder File Structure
