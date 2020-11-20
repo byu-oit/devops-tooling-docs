@@ -11,16 +11,14 @@ Technical Story: Slack conversation [#1](https://byu-oit.slack.com/archives/C014
 We want to use [Semantic Versioning (SemVer)](https://semver.org/) when publishing our GitHub Actions, but [we cannot use SemVer ranges](https://github.community/t/semver-ranges-docs-issues/16723/2) when consuming them.
 
 <details>
-  <summary><b>More Context</b></summary>
+  <summary><b>More Context</b></summary><br>
 
 When we do
 ```yaml
 uses: byu-oit/github-action-tf-plan-analyzer@v2
 ```
 in GitHub Actions, we're telling GitHub to grab the repo at the _branch_ or _tag_ labelled `v2`.
-There's [currently no concept of SemVer](https://github.community/t/semver-ranges-docs-issues/16723/2) in GitHub Actions, but there are some conventions.
-
-A pretty common convention is to cut "releases" (tags) using SemVer, e.g. `v2.0.1`, but that doesn't change the `v2` tag or branch by default.
+There's [currently no concept of SemVer](https://github.community/t/semver-ranges-docs-issues/16723/2) in GitHub Actions, but there are some conventions. A common convention is to cut "releases" (tags) using SemVer, e.g. `v2.0.1`, but that doesn't change the `v2` tag or branch by default.
 
 We would like consumers to be able to get `^2.0.0`, but currently that requires moving the `v2` tag or updating the `v2` branch.
 
