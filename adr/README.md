@@ -9,6 +9,7 @@ This log lists the architectural decisions for the usage of Terraform inside BYU
 - [ADR-0000](0000-use-markdown-architectural-decision-records.md) - Use Markdown Architectural Decision Records
 - [ADR-0001](0001-discard-component-modules.md) - Discard Component Modules
 - [ADR-0002](0002-pull-acs-info-out-of-modules.md) - Pull acs-info out of modules
+- [ADR-0003](0003-github-action-branch-strategy.md) - Use major version branches when publishing and consuming our own GitHub Actions
 
 <!-- adrlogstop -->
 
