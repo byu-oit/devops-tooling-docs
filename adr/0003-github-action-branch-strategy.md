@@ -4,14 +4,14 @@
 * Deciders: Gary Crye, Josh Gubler, Spencer Tuft, Blake Morgan, Tyler Ray, Jamie Visker
 * Date: 2020-11-20
 
-Technical Story: Slack conversation [#1](ttps://byu-oit.slack.com/archives/C014455NV40/p1590792360006800) and [#2](https://byu-oit.slack.com/archives/CQ2BE663T/p1605907223154800)
+Technical Story: Slack conversation [#1](https://byu-oit.slack.com/archives/C014455NV40/p1590792360006800) and [#2](https://byu-oit.slack.com/archives/CQ2BE663T/p1605907223154800)
 
 ## Context and Problem Statement
 
 We want to use [Semantic Versioning (SemVer)](https://semver.org/) when publishing our GitHub Actions, but [we cannot use SemVer ranges](https://github.community/t/semver-ranges-docs-issues/16723/2) when consuming them.
 
 <details>
-  <summary>More context:</summary>
+  <summary><b>More Context</b></summary>
 
 When we do
 ```yaml
