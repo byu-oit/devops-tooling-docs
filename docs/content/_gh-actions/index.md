@@ -113,3 +113,15 @@ A GitHub Action for starting standard change RFCs in BYU's ServiceNow system.
 [https://github.com/byu-oit/github-action-tf-plan-comment](https://github.com/byu-oit/github-action-tf-plan-comment)
 
 A GitHub Action for making a comment on PRs with a summary of a terraform plan to be executed if merged.
+
+## Terraform Plan Analyzer Action
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/github-action-tf-plan-analyzer?sort=semver)](https://github.com/byu-oit/github-action-tf-plan-analyzer/releases/)
+[![CI](https://github.com/byu-oit/github-action-tf-plan-analyzer/workflows/CI/badge.svg)](https://github.com/byu-oit/github-action-tf-plan-analyzer/actions?query=workflow%3ACI)
+[![Test](https://github.com/byu-oit/github-action-tf-plan-analyzer/workflows/Test/badge.svg)](https://github.com/byu-oitgithub-action-tf-plan-analyzer/actions?query=workflow%3ATest)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/github-action-tf-plan-analyzer.svg)](https://github.com/byu-oit/github-action-tf-plan-analyzer/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/github-action-tf-plan-analyzer.svg)](https://github.com/byu-oit/github-action-tf-plan-analyzer/pulls/)
+
+[https://github.com/byu-oit/github-action-tf-plan-analyzer](https://github.com/byu-oit/github-action-tf-plan-analyzer)
+
+A GitHub Action to analyze the proposed Terraform plan for security and compliance.
