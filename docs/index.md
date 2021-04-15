@@ -77,15 +77,14 @@ manager.
 
 - Current Product Manager: Gordon Whitehead
 - GitHub team: [DevOps Tooling](https://github.com/orgs/byu-oit/teams/devops-tooling)
-- Slack channel for creating tooling: [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T)
-- Slack channel for support: [#devops-tooling-comms](https://byu-oit.slack.com/archives/C015UJ4QBFU)
-- Participate in working group meetings
-  - Thursdays from 2:30 to 4 (for the year 2020) - Ask [on Slack](https://byu-oit.slack.com/archives/CQ2BE663T) for 
-  calendar invite or Zoom link
-  - Meeting notes: [Box](https://byu.app.box.com/notes/565434185067?s=i0zy8v9aymtf0rhtd2ywpe1puldi8b2n)
+- Slack channel: [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T)
 - Task Board: [ServiceNow](https://it.byu.edu/$vtb.do?sysparm_board=adea9b97dbadcc101f061cb51b961940)
 
 ### How to Contribute
 
 Reach out on Slack at [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T), or create GitHub issues and pull 
 requests on existing repositories.
+
+**Security Note:** When developing custom GitHub Actions, do **NOT** set any sensitive secrets as environment variables from your custom action.
+Any following action/step has access to any and all environment variables that have been set prior.
+If you need to pass sensitive data from your custom action, then export them as outputs.
