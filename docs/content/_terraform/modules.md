@@ -146,6 +146,18 @@ This Terraform module creates a lambda function that runs postman tests against 
 
 Terraform module to creates a scheduled Fargate Task that happens based off of a cron or rate schedule.
 
+### Domain Redirect Module
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-domain-redirect?sort=semver)](https://github.com/byu-oit/terraform-aws-domain-redirect/releases/)
+[![CI](https://github.com/byu-oit/terraform-aws-domain-redirect/workflows/CI/badge.svg)](https://github.com/byu-oit/terraform-aws-domain-redirect/actions?query=workflow%3ACI)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-domain-redirect.svg)](https://github.com/byu-oit/terraform-aws-domain-redirect/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-domain-redirect.svg)](https://github.com/byu-oit/terraform-aws-domain-redirect/pulls/)
+
+[https://github.com/byu-oit/terraform-aws-domain-redirect/](https://github.com/byu-oit/terraform-aws-domain-redirect/)
+
+Terraform module to manage AWS resources needed to redirect all traffic from one domain to a different URL.
+
+
 ## Create a module
 
 To create a new module, create a new repo from the 
