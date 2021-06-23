@@ -18,4 +18,4 @@ contribute to, and support these tools.
 
 Enblement Engineering focuses on defining the methods and working with established teams to incorporate those methods into their development efforts and are being led by Marty Garn Enablement Engineering facilitates tools, stacks, and experience for all of OIT development efforts. Enablement Engineering definitions can be found [here](https://byu.box.com/s/blk0pcartf4ex0kvqyj5h119l4z55ffa)
 
-Development stack definitions and best practices can be found [here](https://github.com/byu-oit/app-dev-best-practices).
+Development stack definitions and best practices can be found [here](https://github.com/byu-oit/ces-dev-best-practices).
