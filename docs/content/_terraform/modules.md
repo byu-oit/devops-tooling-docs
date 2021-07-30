@@ -157,6 +157,27 @@ Terraform module to creates a scheduled Fargate Task that happens based off of a
 
 Terraform module to manage AWS resources needed to redirect all traffic from one domain to a different URL.
 
+### Humio Logger Module
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-humio-logger?sort=semver)](https://github.com/byu-oit/terraform-aws-humio-logger/releases/)
+[![CI](https://github.com/byu-oit/terraform-aws-humio-logger/workflows/CI/badge.svg)](https://github.com/byu-oit/terraform-aws-humio-logger/actions?query=workflow%3ACI)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-humio-logger.svg)](https://github.com/byu-oit/terraform-aws-humio-logger/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-humio-logger.svg)](https://github.com/byu-oit/terraform-aws-humio-logger/pulls/)
+
+[https://github.com/byu-oit/terraform-aws-humio-logger/](https://github.com/byu-oit/terraform-aws-humio-logger/)
+
+Terraform module to forward CloudWatch log group events to Humio.
+
+### SNS to Slack Lambda Module
+
+[![Latest GitHub Release](https://img.shields.io/github/v/release/byu-oit/terraform-aws-sns-slack-lambda?sort=semver)](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/releases/)
+[![CI](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/workflows/CI/badge.svg)](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/actions?query=workflow%3ACI)
+[![GitHub Issues](https://img.shields.io/github/issues/byu-oit/terraform-aws-sns-slack-lambda.svg)](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/issues/)
+[![GitHub Pulls](https://img.shields.io/github/issues-pr/byu-oit/terraform-aws-sns-slack-lambda.svg)](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/pulls/)
+
+[https://github.com/byu-oit/terraform-aws-sns-slack-lambda/](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/)
+
+Terraform module to forward CloudWatch log group events to Humio.
 
 ## Create a module
 
