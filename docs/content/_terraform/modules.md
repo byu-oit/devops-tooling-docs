@@ -177,7 +177,7 @@ Terraform module to forward CloudWatch log group events to Humio.
 
 [https://github.com/byu-oit/terraform-aws-sns-slack-lambda/](https://github.com/byu-oit/terraform-aws-sns-slack-lambda/)
 
-Terraform module to forward CloudWatch log group events to Humio.
+Terraform module to create a Lambda that can transform SNS notifications and send them to Slack.
 
 ## Create a module
 
