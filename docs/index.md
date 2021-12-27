@@ -69,20 +69,20 @@ host the website. Route 53 is used for DNS resolution. CloudFront and ACM are us
 
 ## Get Involved
 
-### Connect with the DevOps Tooling
+### Connect with the DevX Team
 
-The DevOps Tooling Working Group is a group of individuals from different teams working together on the best practices 
-of using DevOps at BYU. If you would like a new feature or tool from them, contact the Development Platforms product
-manager.
+The DevX Team is a group of individuals compiled from different teams from OIT working together on the best practices 
+of using DevOps at BYU. This team works in all things relating to Developer Experience.
 
-- Current Product Manager: Gordon Whitehead
+- Current Product Owner: Bradley Ross
+- Current Engineering Manager: Rick Winscott
 - GitHub team: [DevOps Tooling](https://github.com/orgs/byu-oit/teams/devops-tooling)
-- Slack channel: [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T)
-- Task Board: [ServiceNow](https://it.byu.edu/$vtb.do?sysparm_board=adea9b97dbadcc101f061cb51b961940)
+- Teams: [IT Collaboration=>OIT ENG AppEng - DevX](https://teams.microsoft.com/l/channel/19%3a8ed626937ba34f8d8c5f2e3fb09fb464%40thread.tacv2/OIT%2520ENG%2520AppEng%2520-%2520DevX?groupId=54688770-069e-42a2-9f77-07cbb0306d01&tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413)
+- Task Board (if you need access to the Visual Task Board contact the Product Owner or the Engineering Manager): [ServiceNow](https://it.byu.edu/nav_to.do?uri=%2F$agile_board.do%23%2Fsprint_tracking)
 
 ### How to Contribute
 
-Reach out on Slack at [#devops-tooling](https://byu-oit.slack.com/archives/CQ2BE663T), or create GitHub issues and pull 
+Reach out on MS Teams at [IT Collaboration=>OIT ENG AppEng - DevX](https://teams.microsoft.com/l/channel/19%3a8ed626937ba34f8d8c5f2e3fb09fb464%40thread.tacv2/OIT%2520ENG%2520AppEng%2520-%2520DevX?groupId=54688770-069e-42a2-9f77-07cbb0306d01&tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413), or create GitHub issues and pull 
 requests on existing repositories.
 
 **Security Note:** When developing custom GitHub Actions, do **NOT** set any sensitive secrets as environment variables from your custom action.
