@@ -75,8 +75,8 @@ The DevX Team is a group of individuals compiled from different teams from OIT w
 of using DevOps at BYU. This team works in all things relating to Developer Experience.
 
 - Current Product Owner: Bradley Ross
-- Current Engineering Manager: Rick Winscott
-- GitHub team: [DevOps Tooling](https://github.com/orgs/byu-oit/teams/devops-tooling)
+- Current Engineering Manager: Rick Winscot
+- GitHub team: [Developer Experience](https://github.com/orgs/byu-oit/teams/developer-experience)
 - Teams: [IT Collaboration=>OIT ENG AppEng - DevX](https://teams.microsoft.com/l/channel/19%3a8ed626937ba34f8d8c5f2e3fb09fb464%40thread.tacv2/OIT%2520ENG%2520AppEng%2520-%2520DevX?groupId=54688770-069e-42a2-9f77-07cbb0306d01&tenantId=c6fc6e9b-51fb-48a8-b779-9ee564b40413)
 - Task Board (if you need access to the Visual Task Board contact the Product Owner or the Engineering Manager): [ServiceNow](https://it.byu.edu/nav_to.do?uri=%2F$agile_board.do%23%2Fsprint_tracking)
 
