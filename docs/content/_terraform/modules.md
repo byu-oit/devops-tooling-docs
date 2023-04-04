@@ -183,6 +183,4 @@ Terraform module to create a Lambda that can transform SNS notifications and sen
 
 To create a new module, create a new repo from the 
 [the terraform module template](https://github.com/byu-oit/terraform-module-template), name it 
-[accordingly](#github-conventions), and share the repository with the 
-[DevOps Tooling](https://github.com/orgs/byu-oit/teams/devops-tooling) team on GitHub, which will allow 
-you to request reviews from the [DevOps Developers](https://github.com/orgs/byu-oit/teams/devops-tooling).
+[accordingly](#github-conventions), and share the repository with your GitHub team.
